@@ -27,6 +27,7 @@ a{
     margin-bottom: 3rem;
 }
 .container{
+    overflow: hidden;
     background-color: var(--primary-background);
 }
 img{
@@ -74,18 +75,29 @@ header{
 }
 .slick-prev{
     top: 30%;
-    left: -1rem;
+    left: 1rem;
 }
 .slick-next{
     top: 30%;
-    right: -1rem;
+    right: 1rem;
 }
 .section-art{
     font-size: 2rem;
 }
+@media (max-width: 575.98px) { 
+    .section-art{
+        font-size: 1.8rem;
+        padding-left: 1rem;
+    }
+
+ }
+
 .section-title{
     text-align: center;
     padding:2px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color:var(--secondry-background);
+}
+.footer{
+    padding: 1rem;
 }

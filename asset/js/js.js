@@ -44,3 +44,27 @@ $(document).ready(function(){
 
   });
 });
+$(document).ready(function(){
+  $('.footer').slick({
+    slidesToShow: 3,
+    prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+    nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+    responsive: [
+      {
+        breakpoint: 740,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow:1,
+          slidesToScroll:1,
+        }
+      }
+    ]
+
+  });
+});
