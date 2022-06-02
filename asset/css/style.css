@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     color:var(--primary-text-color);
@@ -17,7 +20,7 @@ img{
     margin-top: 30px;
 }
 .mgb-30{
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .container{
     background-color: var(--primary-background);
@@ -27,7 +30,7 @@ img{
 }
 header{
     background-color: brown;
-    height: 40px;
+    height: 4rem;
 }
 .sliders{
     position: relative;
@@ -59,22 +62,26 @@ header{
     border: none;
     color: #fff;
     background-color:hsla(0, 17%, 24%, 0.8);
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 3rem;
     text-align: none;
 }
 .slick-prev{
     top: 30%;
-    left: -10px;
+    left: -1rem;
 }
 .slick-next{
     top: 30%;
-    right: -10px;
+    right: -1rem;
+}
+.section-art{
+    font-size: 2rem;
 }
 .section-title{
     text-align: center;
     padding:2px;
+    font-size: 1.5rem;
     background-color:var(--secondry-background);
 }
