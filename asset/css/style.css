@@ -16,6 +16,10 @@ img{
     width: 100%;
     object-fit: cover;
 }
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
 .mgt-30{
     margin-top: 30px;
 }
@@ -66,7 +70,7 @@ header{
     height: 3rem;
     border-radius: 50%;
     line-height: 3rem;
-    text-align: none;
+    text-align: center;
 }
 .slick-prev{
     top: 30%;
