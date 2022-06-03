@@ -68,3 +68,16 @@ $(document).ready(function(){
 
   });
 });
+var toggle=false
+var bars=document.querySelector(".bars")
+var navmobile=document.querySelector(".sub-nav-mobile")
+const addNavMobile=()=>{
+ if(toggle){
+    navmobile.classList.remove("active-nav-mobile")
+    toggle=!toggle
+ }else{
+  navmobile.classList.add("active-nav-mobile")
+  toggle=!toggle
+ }
+}
+bars.addEventListener("click",addNavMobile)
