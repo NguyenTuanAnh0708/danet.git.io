@@ -46,6 +46,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.footer').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
     nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',

@@ -24,6 +24,7 @@
 .col {
     padding-left: 4px;
     padding-right: 4px;
+    margin: 0px 4px 0px 4px;
 }
 
 .row.no-gutters .col {
@@ -149,6 +150,7 @@
     .col {
         padding-left: 8px;
         padding-right: 8px;
+        margin: 0px;
     }
 
     .m-0 {
@@ -290,6 +292,7 @@
     .col {
         padding-left: 12px;
         padding-right: 12px;
+        margin: 0px;
     }
 
     .row.sm-gutter .col {
@@ -593,4 +596,47 @@
     --primary-background:#282525;
     --primary-text-color:#fff;
     --secondry-background:#483333;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:var(--primary-text-color);
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.mgt-30{
+    margin-top: 30px;
+}
+.mgt-10{
+    margin-top: 10px;
+}
+.mgb-10{
+    margin-bottom: 10px;
+}
+.mgt-20{
+    margin-top: 20px;
+}
+.mgb-20{
+    margin-bottom: 20px;
+}
+.mgb-30{
+    margin-bottom: 3rem;
+}
+.container{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--primary-background);
 }
