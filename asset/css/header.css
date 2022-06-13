@@ -1,6 +1,10 @@
 header{
+    left: 0;
+    right: 0;
+    position: fixed;
     background-image: url("../imgs/homepage/backgroung-img.png");
      height: 4rem;
+     z-index: 999999999999999999999999;
  }
  .nav-pc{
     height: 4rem;

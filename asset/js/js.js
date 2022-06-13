@@ -70,6 +70,8 @@ $(document).ready(function(){
 
   });
 });
+
+// console.log($(".pay-wapper"))
 var toggle=false
 var bars=document.querySelector(".bars")
 var navmobile=document.querySelector(".sub-nav-mobile")
